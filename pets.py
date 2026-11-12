@@ -42,6 +42,4 @@ return "Tweet!"
 def describe(self):
 flying = "can fly" if self.can_fly else "cannot fly"
 return super().describe() + f" and {flying}."
-In main.py, change the first line and the shelter line to:
-from pets import Dog, Cat, Bird
-shelter = [Dog("Bantay", 3), Cat("Mingming", 2), Bird("Tweety", 1)]
+
