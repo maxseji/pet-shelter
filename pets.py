@@ -20,7 +20,7 @@ return "Woof!"
 
 class Cat(Pet):
 def speak(self):
-return "Meow."
+return "Purr..."
 
 from pets import Dog, Cat
 def main():
