@@ -32,6 +32,10 @@ print("---")
 if __name__ == "__main__":
 main()
 
+def sleep(self):
+self.energy = 3
+return f"{self.name} takes a nap. Energy is back to {self.energy}."
+
 class Bird(Pet):
 def __init__(self, name, age, can_fly=True):
 super().__init__(name, age)
